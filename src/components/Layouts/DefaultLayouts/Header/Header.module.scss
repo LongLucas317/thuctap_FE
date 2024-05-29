@@ -1,0 +1,114 @@
+.header__wrapper {
+  min-height: 72px;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--WHITE);
+  background-color: #00483d;
+
+  .store__name {
+    text-transform: uppercase;
+  }
+
+  .search__section {
+    display: flex;
+    align-items: center;
+    width: 420px;
+    overflow: hidden;
+    border-radius: 12px;
+
+    .search__input {
+      position: relative;
+      font-size: 16px;
+      height: 40px;
+      width: 100%;
+      overflow: hidden;
+      border: none;
+      outline: none;
+      padding: 6px 12px;
+    }
+
+    .search__icon {
+      position: absolute;
+      right: 375px;
+      color: #000;
+      padding: 12px;
+      border-radius: 12px;
+      transition: 0.2s;
+
+      &:hover {
+        cursor: pointer;
+        color: var(--WHITE);
+        background-color: var(--BG-a06);
+      }
+    }
+  }
+
+  .contact__section {
+    display: flex;
+    align-items: center;
+
+    .cart__section {
+      margin-right: 12px;
+
+      .cart__icon {
+        border-radius: 50%;
+        padding: 12px;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .user__section {
+      padding: 11px;
+      border-radius: 8px;
+      background-color: #009981;
+      transition: 0.2s;
+
+      &:hover {
+        cursor: pointer;
+        background-color: var(--BG-a06);
+      }
+
+      .user__icon {
+        cursor: pointer;
+      }
+
+      .user__btn {
+        font-size: 16px;
+        margin-left: 6px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        color: var(--WHITE);
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+.navigate__section {
+  .navigate__list {
+    display: flex;
+    list-style-type: none;
+
+    li {
+      font-size: 16px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      margin: 0px 4px;
+      padding: 0px 12px;
+      border-radius: 8px;
+      background-color: var(--BTN-color);
+
+      &:hover {
+        cursor: pointer;
+        background-color: var(--BG-a06);
+      }
+    }
+  }
+}
